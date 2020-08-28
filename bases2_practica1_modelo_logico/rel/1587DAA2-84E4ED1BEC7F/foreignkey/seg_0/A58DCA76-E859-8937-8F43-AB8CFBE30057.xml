@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A58DCA76-E859-8937-8F43-AB8CFBE30057" containerWithKeyObject="1C398F90-0DDC-F7EE-D48C-EA75D6929BF5" localFKIndex="AD9CF91E-310F-F5D9-F293-D4FEE7C72DA3" name="Sala_Formato_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:51:41 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<referredTableLongName>Formato</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E39F74DD-E69F-4E0D-016C-42E4D7D9F6CD</referredTableID>
+<keyObject>531DB1DD-8ACD-1EF4-B86D-42C04ABA5734</keyObject>
+<referredKeyID>531DB1DD-8ACD-1EF4-B86D-42C04ABA5734</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_formato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

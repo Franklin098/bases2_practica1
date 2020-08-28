@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEAB1DD3-1625-CB80-D4C7-EF1A2CC38486" name="Genero">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:01:01 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_genero" id="23A8F18D-81BD-E729-7387-799250B9F951">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:01:01 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="A72E2861-7E3D-A37D-8E7D-9398665C87AD">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:01:01 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9611BAB-3DB0-D42E-C619-48E8B7FB9322" name="Genero_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:01:01 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A8F18D-81BD-E729-7387-799250B9F951"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

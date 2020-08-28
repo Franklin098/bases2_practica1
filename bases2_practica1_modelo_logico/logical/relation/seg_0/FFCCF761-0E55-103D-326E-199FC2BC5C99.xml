@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pelicula_Clasificacion_FK" directorySegmentName="seg_0" id="FFCCF761-0E55-103D-326E-199FC2BC5C99">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>91A449F1-DA8F-0547-AF19-72E6AC6ECA66</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<sourcePk>84E868C5-46C8-28FB-B210-BD59E19DC25F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD687666-0371-0F99-2E82-8B294CCCA242</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D9FDA46-3612-516E-746C-159996628738</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

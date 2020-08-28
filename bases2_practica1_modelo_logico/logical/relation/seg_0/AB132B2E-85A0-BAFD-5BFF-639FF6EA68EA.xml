@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Persona_Pelicula_Rol_FK" directorySegmentName="seg_0" id="AB132B2E-85A0-BAFD-5BFF-639FF6EA68EA">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>E564432B-A286-CABC-F668-5791B018FED2</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<sourcePk>FAE85CDB-E980-A9D7-EF87-E28B3D39C5D6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A8E9787E-6FF3-41C2-AF51-6DA027EE8981</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DEAE334C-0594-874E-DDED-BB46789285BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F505ED5-64E8-4B51-859F-62467BAFEB36" name="Persona">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>E7B91D9D-66C3-4B17-5A54-F669C94B2F51</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id persona" id="57C94C12-709F-14DF-B6B8-B9A630B49F69">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>1D4AAAC0-517B-916D-D81B-E17A8C407F77</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="41FD8747-16A3-D5CF-CFD7-8FB3B324FB83">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>58DF8E57-172F-21F2-F909-C2F723838CB1</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="D1B6D7BE-D358-072B-874F-541903E3C1A8">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>2D010909-8D91-C3D1-F274-39C3A22568DB</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pais" id="698601A9-6433-818E-C852-9B79AE696328">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>8311AD51-BD0A-DE12-F4C3-9892C50D53D6</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<referedAttribute>600742B1-956D-F516-B76E-E88F344073F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5A35FC4-AB39-7AC4-D71D-BB3D44996429" name="Persona PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>94E6E17F-90E0-1060-A9F1-886CFAF3A4E3</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57C94C12-709F-14DF-B6B8-B9A630B49F69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FBDE993-0999-BA9C-646A-453C393E7789" name="Productora">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:02:16 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_productora" id="5B8213EC-9C9A-2D74-10FC-A89F72D5F8BC">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:02:16 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_productora" id="214B4117-15E4-75F6-0879-51F611BA3A21">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:02:16 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA70C3FD-D846-D180-16C1-B0D09A3C756C" name="Productora_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:02:16 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B8213EC-9C9A-2D74-10FC-A89F72D5F8BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AFB92C3-84CE-DA77-5356-B1E41DC57CBE" name="Idioma">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>8C108C69-C611-014C-DA09-14AAEBAF5383</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id idioma" id="287BEBA0-BAAC-7B04-7E95-E1FF4CF98505">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>D289EAB3-0486-6BA5-B44E-738FFDDDC4BF</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idioma" id="932F3D75-E017-4AC8-99E3-815D3800170D">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>44CFF1BD-3EB8-BA21-4CF6-0A0527699CAC</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4CEFDF3-64C6-3A85-A2E3-F7EE3262569C" name="Idioma PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>5919A893-19F4-89B8-DEBB-5F3DEDD4BD74</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>287BEBA0-BAAC-7B04-7E95-E1FF4CF98505</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

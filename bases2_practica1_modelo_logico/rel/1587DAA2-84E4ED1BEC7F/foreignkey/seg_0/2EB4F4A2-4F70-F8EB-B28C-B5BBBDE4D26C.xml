@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2EB4F4A2-4F70-F8EB-B28C-B5BBBDE4D26C" containerWithKeyObject="48398FDE-9ED5-702E-B520-C66BB7548D74" localFKIndex="890EE7FE-9A7D-3BC8-ECA4-65CC28A5F116" name="Pelicula_Productora_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:03:57 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<referredTableLongName>Productora</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1FBDE993-0999-BA9C-646A-453C393E7789</referredTableID>
+<keyObject>BA70C3FD-D846-D180-16C1-B0D09A3C756C</keyObject>
+<referredKeyID>BA70C3FD-D846-D180-16C1-B0D09A3C756C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_productora</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

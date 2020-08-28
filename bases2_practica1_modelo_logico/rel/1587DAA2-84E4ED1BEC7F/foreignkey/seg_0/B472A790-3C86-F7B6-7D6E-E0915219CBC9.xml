@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B472A790-3C86-F7B6-7D6E-E0915219CBC9" containerWithKeyObject="48398FDE-9ED5-702E-B520-C66BB7548D74" localFKIndex="C21B5638-8C05-B77F-7D7D-B204E4202CF3" name="Pelicula_Genero_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:03:46 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<referredTableLongName>Genero</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DEAB1DD3-1625-CB80-D4C7-EF1A2CC38486</referredTableID>
+<keyObject>F9611BAB-3DB0-D42E-C619-48E8B7FB9322</keyObject>
+<referredKeyID>F9611BAB-3DB0-D42E-C619-48E8B7FB9322</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_genero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

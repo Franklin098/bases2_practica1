@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEAE334C-0594-874E-DDED-BB46789285BE" name="Persona Pelicula">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>7CF47CF1-31E0-250F-6008-DA3681368528</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pelicula" id="11365217-71FC-D318-FBD6-0A848D54AE51">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>6E1152F6-AE93-4C47-F930-A38A4557FDA1</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<referedAttribute>188A601D-8583-AFE0-7623-D78035D01F48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id persona" id="C00BDB72-282D-BF9B-411E-7B2415F3F553">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>835BB6AB-81D6-9C10-8763-17130FEBF6ED</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<referedAttribute>57C94C12-709F-14DF-B6B8-B9A630B49F69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id rol" id="C09B7005-92E7-C7BE-7AE8-B88EED4E35A5">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>AB132B2E-85A0-BAFD-5BFF-639FF6EA68EA</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<referedAttribute>B68106DC-CDB1-0C5E-5DDE-2E5DC05DA79A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre personaje" id="B6133DDA-81E4-9562-022B-4D5292821DBE">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>D211E5E3-65F1-3F6A-C2D9-35A10785B8FA</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86DCF9B3-6A18-4BE1-73A9-F1B95F5CB93F" name="Persona Pelicula PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>02846D69-C3AB-8038-11E5-E1D50335D28B</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11365217-71FC-D318-FBD6-0A848D54AE51</attributeRef>
+<attributeRef>C00BDB72-282D-BF9B-411E-7B2415F3F553</attributeRef>
+<attributeRef>C09B7005-92E7-C7BE-7AE8-B88EED4E35A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

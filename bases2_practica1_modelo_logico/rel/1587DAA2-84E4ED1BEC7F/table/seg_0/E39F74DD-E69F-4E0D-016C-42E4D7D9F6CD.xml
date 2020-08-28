@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E39F74DD-E69F-4E0D-016C-42E4D7D9F6CD" name="Formato">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:48:30 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_formato" id="7FD35BD7-F647-401B-F700-5BD30BA7514C">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:49:33 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="formato" id="B6354060-AFC9-415B-DE9F-1486CEDC8EB0">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:49:33 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="531DB1DD-8ACD-1EF4-B86D-42C04ABA5734" name="Formato_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:49:53 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FD35BD7-F647-401B-F700-5BD30BA7514C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

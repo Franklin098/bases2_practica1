@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Persona_Pais_FK" directorySegmentName="seg_0" id="8311AD51-BD0A-DE12-F4C3-9892C50D53D6">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>1F0C2C52-BC7C-1578-9B1A-8F0182C908EB</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<sourcePk>CE5FFC0C-64DC-E294-BA69-322CCA0439FB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F746473A-1CC7-6F32-2EFC-DE684CC81783</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F505ED5-64E8-4B51-859F-62467BAFEB36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7B91D9D-66C3-4B17-5A54-F669C94B2F51" name="Persona">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:20:46 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_persona" id="1D4AAAC0-517B-916D-D81B-E17A8C407F77">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:21:57 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="58DF8E57-172F-21F2-F909-C2F723838CB1">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:21:57 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="2D010909-8D91-C3D1-F274-39C3A22568DB">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:21:57 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pais" id="8BBB2D35-1561-8659-B50C-BA985DE4FA83">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:21:57 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F0C2C52-BC7C-1578-9B1A-8F0182C908EB" referredColumn="E63A8484-4D32-3223-127E-284FCBDCF47D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94E6E17F-90E0-1060-A9F1-886CFAF3A4E3" name="Persona_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:21:57 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D4AAAC0-517B-916D-D81B-E17A8C407F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A85A993-A369-EF55-8CBD-85F3E6261C23" name="Persona_Pais_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:31:29 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BBB2D35-1561-8659-B50C-BA985DE4FA83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

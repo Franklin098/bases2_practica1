@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29C5951A-F43E-C1FA-0F38-C13A9D1D9043" containerWithKeyObject="1C398F90-0DDC-F7EE-D48C-EA75D6929BF5" localFKIndex="1C3A9BFC-4240-64C9-59D7-6B06459CFD9D" name="Sala_Cine_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:53:59 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<referredTableLongName>Cine</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9F097462-9543-04AC-E9C5-2165D87DEE03</referredTableID>
+<keyObject>75E22B41-BDAE-95BE-DE4F-E833D41CC8D3</keyObject>
+<referredKeyID>75E22B41-BDAE-95BE-DE4F-E833D41CC8D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cine</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

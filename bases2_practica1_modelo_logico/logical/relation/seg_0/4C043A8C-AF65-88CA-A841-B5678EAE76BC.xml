@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Funcion_Sala_FK" directorySegmentName="seg_0" id="4C043A8C-AF65-88CA-A841-B5678EAE76BC">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>9AA759ED-BD03-2680-63BC-D420E6C470A8</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<sourcePk>3571EEBF-D5CD-4640-A398-0E18FD065A8B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0F371C6-6400-E808-A8BF-9F2DE4F23E96</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5232079C-5DCE-BCAC-17E9-F746DBB6D23F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

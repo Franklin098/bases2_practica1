@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9AA759ED-BD03-2680-63BC-D420E6C470A8" containerWithKeyObject="77D7D37E-BA5A-8ED1-4CA3-82335ECAF4D8" localFKIndex="8666053B-95AC-012D-ED99-F134680DF2B0" name="Funcion_Sala_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:38:43 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<referredTableLongName>Sala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C398F90-0DDC-F7EE-D48C-EA75D6929BF5</referredTableID>
+<keyObject>D8340BFA-C5C3-FEE7-CA3F-5BFED00D4998</keyObject>
+<referredKeyID>D8340BFA-C5C3-FEE7-CA3F-5BFED00D4998</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_sala</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

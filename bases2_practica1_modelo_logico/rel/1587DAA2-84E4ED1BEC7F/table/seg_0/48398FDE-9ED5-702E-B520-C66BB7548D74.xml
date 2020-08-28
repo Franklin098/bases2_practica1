@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48398FDE-9ED5-702E-B520-C66BB7548D74" name="Pelicula">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:52:32 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pelicula" id="477CE3BC-94B7-900B-DAB1-8D1C75048887">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:56:20 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="342DF8D5-D938-FF5F-16A5-CDD8A777775D">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:56:20 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_clasificación" id="C2989168-713D-260C-874A-3C306B02BFD5">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:56:20 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A449F1-DA8F-0547-AF19-72E6AC6ECA66" referredColumn="33131F96-7DF8-A135-D7E4-DF0B713C418F"/>
+</associations>
+</Column>
+<Column name="id_genero" id="1E279B19-344A-B44B-174E-7FBE54380075">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:56:20 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B472A790-3C86-F7B6-7D6E-E0915219CBC9" referredColumn="23A8F18D-81BD-E729-7387-799250B9F951"/>
+</associations>
+</Column>
+<Column name="id_productora" id="A743E103-95CD-2655-6A73-83DB27A392D0">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:56:20 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EB4F4A2-4F70-F8EB-B28C-B5BBBDE4D26C" referredColumn="5B8213EC-9C9A-2D74-10FC-A89F72D5F8BC"/>
+</associations>
+</Column>
+<Column name="id_idioma" id="ABAEB900-394A-06A0-16EC-A6DBE6A201D3">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:47:34 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="942717DC-2E20-15D7-96B2-8CD8B8666B76" referredColumn="D289EAB3-0486-6BA5-B44E-738FFDDDC4BF"/>
+</associations>
+</Column>
+<Column name="subtitulada" id="4DCFE775-0598-F403-F9D1-0901621799D0">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:56:20 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion_minutos" id="C47FF6DC-1E65-EEE9-CC85-BAA78FE41A1B">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:56:20 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_produccion" id="DDB4C1AB-F58B-84CD-34CD-7190741E377C">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:57:22 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resumen_corto" id="D812D23F-9100-3302-2F91-9B3D795907FC">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:57:22 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12771C59-154E-14CC-8604-BBECB3614961" name="Pelicula_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:56:20 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="477CE3BC-94B7-900B-DAB1-8D1C75048887"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBFC6A45-744A-C3DE-81BA-B72FB8E42B96" name="Pelicula_Clasificacion_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:03:27 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2989168-713D-260C-874A-3C306B02BFD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C21B5638-8C05-B77F-7D7D-B204E4202CF3" name="Pelicula_Genero_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:03:46 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E279B19-344A-B44B-174E-7FBE54380075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="890EE7FE-9A7D-3BC8-ECA4-65CC28A5F116" name="Pelicula_Productora_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:03:57 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A743E103-95CD-2655-6A73-83DB27A392D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="330873FA-5547-D619-E88B-A26B11B8035F" name="Pelicula_Idioma_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:48:08 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABAEB900-394A-06A0-16EC-A6DBE6A201D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

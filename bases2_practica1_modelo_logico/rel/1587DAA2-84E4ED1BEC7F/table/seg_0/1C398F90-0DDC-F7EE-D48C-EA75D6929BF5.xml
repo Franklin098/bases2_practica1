@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C398F90-0DDC-F7EE-D48C-EA75D6929BF5" name="Sala">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:32:50 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_sala" id="DACD71F1-63EF-E731-C71D-052B17A7DD12">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:46:43 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cine" id="448E418E-94D2-5573-68DB-CFF6729801C3">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:53:47 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29C5951A-F43E-C1FA-0F38-C13A9D1D9043" referredColumn="E14CA656-575C-135B-B130-00500BCEE2CC"/>
+</associations>
+</Column>
+<Column name="id_ubicación" id="ED09980E-0248-ED57-6903-0FE48FC3C000">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:46:43 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18D49090-281B-78D9-A020-18267079CC49" referredColumn="84211514-1813-8138-4893-F86C1F758B8F"/>
+</associations>
+</Column>
+<Column name="id_formato" id="B5B74FC2-6670-4450-3F56-63938DA904A3">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:47:32 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A58DCA76-E859-8937-8F43-AB8CFBE30057" referredColumn="7FD35BD7-F647-401B-F700-5BD30BA7514C"/>
+</associations>
+</Column>
+<Column name="capacidad" id="FB4D24F7-346B-DF71-0E04-89856EDB7D45">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:47:32 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8340BFA-C5C3-FEE7-CA3F-5BFED00D4998" name="Sala_PK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:46:43 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DACD71F1-63EF-E731-C71D-052B17A7DD12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="847C48F2-BDC1-2A2C-B14A-9C86F0A4EDDD" name="Sala_Ubicacion_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:51:08 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED09980E-0248-ED57-6903-0FE48FC3C000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD9CF91E-310F-F5D9-F293-D4FEE7C72DA3" name="Sala_Formato_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 21:51:41 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5B74FC2-6670-4450-3F56-63938DA904A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C3A9BFC-4240-64C9-59D7-6B06459CFD9D" name="Sala_Cine_FK">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:53:59 UTC</createdTime>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="448E418E-94D2-5573-68DB-CFF6729801C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Funcion_Pelicula_FK" directorySegmentName="seg_0" id="6CCA086E-389C-FFC1-6F9E-E38AA1505535">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<createdTime>2020-08-28 22:54:55 UTC</createdTime>
+<generatorID>07914155-8A7A-A757-342A-44BCA1296D29</generatorID>
+<ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="1587DAA2-1F74-F313-7AD1-84E4ED1BEC7F" value="true"/>
+</engineerTo>
+<sourcePk>F8EFD391-C81A-5064-C42D-2A3F57D230EA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D9FDA46-3612-516E-746C-159996628738</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5232079C-5DCE-BCAC-17E9-F746DBB6D23F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
