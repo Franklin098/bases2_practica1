@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="77D5FD30-0DAA-7CB5-9299-093577685B9D">
+<createdBy>franklinvelasquezfuentes</createdBy>
+<modifiedBy>franklinvelasquezfuentes</modifiedBy>
+<createdTime>2020-08-28 19:28:18 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="1D52D69D-2426-03C6-1241-D64A63EF5703" otype="Note" vid="AFED14F8-7F8B-F3C8-A9CC-DC74C399B021">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="61" y="99" width="59" height="49"/>
+<comment>Haga clic dos veces para &lt;br/&gt;editar el texto.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F577FDB7-BDD5-E79A-9331-8479FF5793F2" otype="Note" vid="DE161FDD-4E89-EBEF-B170-2B249435FAA0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="95" y="155" width="95" height="40"/>
+<comment>Haga clic dos veces para &lt;br/&gt;editar el texto.</comment>
+</OView>
+</objectViews>
+</Diagram>
