@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="77BE16AE-D1AA-D473-6571-739A9015F51A">
+<Attribute name="nombre productora" id="77BE16AE-D1AA-D473-6571-739A9015F51A">
 <createdBy>franklinvelasquezfuentes</createdBy>
 <createdTime>2020-08-28 22:54:55 UTC</createdTime>
 <generatorID>214B4117-15E4-75F6-0879-51F611BA3A21</generatorID>

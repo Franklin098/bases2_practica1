@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre cina" id="B49F71DE-DDC2-EC7B-BA8D-E332C3AC10F6">
+<Attribute name="nombre cine" id="B49F71DE-DDC2-EC7B-BA8D-E332C3AC10F6">
 <createdBy>franklinvelasquezfuentes</createdBy>
 <createdTime>2020-08-28 22:54:55 UTC</createdTime>
 <generatorID>CE2E8DE3-2543-93EF-5AEE-7A87060DD392</generatorID>

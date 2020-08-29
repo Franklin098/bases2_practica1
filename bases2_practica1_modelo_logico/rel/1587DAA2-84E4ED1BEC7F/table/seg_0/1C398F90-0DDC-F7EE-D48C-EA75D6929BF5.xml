@@ -31,7 +31,7 @@
 <colAssociation fkAssociation="29C5951A-F43E-C1FA-0F38-C13A9D1D9043" referredColumn="E14CA656-575C-135B-B130-00500BCEE2CC"/>
 </associations>
 </Column>
-<Column name="id_ubicación" id="ED09980E-0248-ED57-6903-0FE48FC3C000">
+<Column name="id_ubicacion" id="ED09980E-0248-ED57-6903-0FE48FC3C000">
 <createdBy>franklinvelasquezfuentes</createdBy>
 <createdTime>2020-08-28 21:46:43 UTC</createdTime>
 <ownerDesignName>bases2_practica1_modelo_logico</ownerDesignName>
